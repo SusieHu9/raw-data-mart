@@ -1,0 +1,157 @@
+{
+	"user": {
+		"abcdefghi": {
+			"userid": "abcdefghi",
+			"name": "admin",
+			"email": "admin@usc.edu",
+			"role": "admin",
+			"password": "admin123",
+			"group": ["admin"],
+			"permission": "11111"
+		},
+		"opdksi2s": {
+			"userid": "opdksi2s",
+			"name": "researcher",
+			"email": "research@usc.edu",
+			"role": "researcher",
+			"password": "research123",
+			"group": ["USC", "UCLA"],
+			"permission": "11110",
+			"invitecode":"AS204JWQ4S3",
+			"invitetime":"2016-04-07 10:25:09"
+		},
+		"auedb19s": {
+			"userid": "auedb19s",
+			"name": "coach",
+			"email": "coach@usc.edu",
+			"role": "coach",
+			"password": "coach123",
+			"group": ["USC"],
+			"permission": "10010",
+			"invitecode":"AS204JWQ4Q3",
+			"invitetime":"2016-04-07 10:27:09"
+		},
+		"aasdb19s": {
+			"userid": "aasdb19s",
+			"name": "alex",
+			"email": "alex@usc.edu",
+			"role": "participant",
+			"password": "alex123",
+			"group": ["USC"],
+			"permission": "10010",
+			"invitecode":"AQ104JWQ4Q3",
+			"invitetime":"2016-04-07 10:26:09"
+		}
+	},
+	"object": {
+		"0": {
+			"birthdate":"1999-09-12",
+			"objectname": "Alex Run Video 2023-02-20 #Start Lateral",
+			"date": "2023-02-20",
+			"participant": "Alex",
+			"participantid": 5000,
+			"sex": "male",
+			"height": "5'7''",
+			"weight": "130",
+			"collectionid": "5000001",
+			"collectiontype": "Run",
+			"distance": "25m",
+			"description": "Start Lateral",
+			"heartrate": "105",
+			"datatype": "Video",
+			"created": "2023-02-21",
+			"modified": "2023-02-21 10:27:09",
+			"group": ["USC", "UCLA"],
+			"user_access": {
+				"0": {
+					"username": "1000",
+					"action": "modify",
+					"success": 1,
+					"time": "2023-02-23 20:26:31"
+				}
+			},
+			"location": "https://rawdatamart.s3.us-west-1.amazonaws.com/5000/5000001/10YDTrial1.mov"
+		},
+		"1": {
+			"birthdate":"1999-09-12",
+			"objectname": "Alex Run Force 2023-02-20 #End",
+			"date": "2023-02-20",
+			"participant": "Alex",
+			"participantid": 5000,
+			"sex": "male",
+			"height": "5'7''",
+			"weight": "130",
+			"collectionid": "5000001",
+			"collectiontype": "Run",
+			"distance": "25m",
+			"description": "End",
+			"heartrate": "105",
+			"datatype": "Force",
+			"created": "2023-02-21",
+			"modified": "2023-02-21 10:27:09",
+			"group": ["USC", "UCLA"],
+			"user_access": {
+				"0": {
+					"username": "1000",
+					"action": "modify",
+					"success": 1,
+					"time": "2023-02-23 20:26:33"
+				}
+			},
+			"location": "data/0.json"
+		},
+		"2": {
+			"birthdate":"1989-09-12",
+			"objectname": "Bob Run Video 2023-02-20 #Start Lateral",
+			"date": "2023-02-20",
+			"participant": "Bob",
+			"participantid": 5001,
+			"sex": "male",
+			"height": "5'7''",
+			"weight": "130",
+			"collectionid": "5001001",
+			"collectiontype": "Run",
+			"distance": "25m",
+			"description": "Start Lateral",
+			"heartrate": "105",
+			"datatype": "Video",
+			"created": "2023-02-21",
+			"modified": "2023-02-21 10:27:09",
+			"group": ["USC", "UCLA"],
+			"user_access": {
+				"0": {
+					"username": "1000",
+					"action": "modify",
+					"success": 1,
+					"time": "2023-02-23 20:26:31"
+				}
+			},
+			"location": "https://rawdatamart.s3.us-west-1.amazonaws.com/5001/5001001/10YDTrial2.mov"
+		}
+	},
+	"data": {
+		"0": {
+			"Fx_test": [0,1,2,3,4,5],
+			"Fy_test": [0,4,3,2,1,0.5],
+			"time": [0,0.001,0.002,0.003,0.004,0.005]
+		}
+	},
+	"setting":{
+		"group":["USC","UCLA","admin"],
+		"object":{
+			"5000":{
+				"birthdate":"1999-09-12",
+				"collectionid": 5000001,
+				"name":"Alex",
+				"sex":"male"
+			},
+			"5001":{
+				"birthdate":"1989-09-12",
+				"collectionid": 5001001,
+				"name":"Bob",
+				"sex":"male"
+			},
+			"participantid":5001
+		}
+	}
+}
