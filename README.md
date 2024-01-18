@@ -12,12 +12,19 @@ In the past decade, technological advancements have introduced tools like video 
 In our solution, we have established `an athlete-centric data model` utilizing `a NoSQL structure`. This approach allows relevant personnel to fine-tune the data structure and perform data queries and retrieval using data tags. We achieved seamless integration with `two cloud-based databases, Firebase and AWS S3`, to support the storage of metadata and multimedia content. Additionally, we provide `an intuitive web-based GUI`, ensuring users have a user-friendly experience at every step.
 
 ## Getting Started
-### Prerequisite:
+### Run the Raw Data Mart
+To run the web application, follow these steps:
+1. Clone this repository to your local machine.
+2. Install required dependencies.
 ```bash
-pip install -r requirements.txt # install required packages
-streamlit run Main.py # run web application
+pip install -r requirements.txt
 ```
-### Testing User: 
+3. Run the web application.
+```bash
+streamlit run Main.py
+```
+
+### Testing User
 ```bash
 # role: admin
 email: admin@usc.edu
@@ -35,6 +42,7 @@ password: research123
 email: alex@usc.edu
 password: alex123
 ```
+
 ### Build Tools: Restart database (optional):
 ```bash
 python ./restart/start.py # restart Firebase
@@ -92,8 +100,8 @@ Our system consists of 5 modules. The core modules are the `Data Upload Module` 
 - [Amazon S3](https://aws.amazon.com/s3/) for database (raw data)
 
 
-### Documentation
-**1. Web Application:**
+### File Description
+**1. Web Application**
 - Main.py: Authority Access Module
 - pages/1_Query & Retrieval.py: Query & Retrieval Module
 - pages/2_Data Upload.py: Data Upload Module
@@ -101,10 +109,10 @@ Our system consists of 5 modules. The core modules are the `Data Upload Module` 
 - pages/Authority Management.py: Authority Management Module
 - tempDir: Cache
 
-**2. Sample Data:**
+**2. Sample Data**
 - raw_data: Sample data
 
-**3.Restart Database:**
+**3.Restart Database**
 - restart/README.txt: Firebase structure
 - restart/start_file.json: Restart sample data
 - restart/start.py: Restart code
