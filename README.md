@@ -43,7 +43,7 @@ email: alex@usc.edu
 password: alex123
 ```
 
-### Build Tools: Restart database (optional):
+### Build Tools: Restart database (optional)
 ```bash
 python ./restart/start.py # restart Firebase
 ```
